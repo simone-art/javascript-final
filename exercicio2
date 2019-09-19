@@ -1,0 +1,47 @@
+let minhaVariavelF="caramelos"
+undefined
+console.log minhaVariavelF
+VM2782:1 Uncaught SyntaxError: Unexpected identifier
+console.log (minhaVariavelF)
+VM2853:1 caramelos
+undefined
+minhaVariavel=10
+10
+minhaVariavelF="10"
+"10"
+minhaVariavelF=true;
+true
+console.log ("true")
+VM3033:1 true
+undefined
+let N="numero"
+undefined
+let numero= prompt ("Digite seu CPF:")
+undefined
+console.log (N=numero)
+VM3396:1 701.751.751.28
+undefined
+numero
+"701.751.751.28"
+parseInt (numero)
+701
+numero
+"701.751.751.28"
+numero
+"701.751.751.28"
+parseFloat (numero)
+701.751
+numero
+"701.751.751.28"
+numero.replace('.','')
+"701751.751.28"
+numero.replace('.','')
+"701751.751.28"
+numero = numero.replace('.','')
+"701751.751.28"
+numero = numero.replace('.','')
+"701751751.28"
+numero = numero.replace('.','')
+"70175175128"
+numero = numero.split('.').join('')
+"70175175128"

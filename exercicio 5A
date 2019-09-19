@@ -1,0 +1,450 @@
+let x=3
+let y=2
+x>y=1
+if (x>y)=1 {
+    console.log ("mostrar 1")
+}
+
+RESPUESTA CORRECTA:
+
+let x=3
+let y=2
+x>y=1
+if (x>y) {
+    x=1
+}
+
+========================================================
+
+let numX= (valor)
+let numY= (valor)
+let numberFinal=1
+if (numX>numY=numberFinal) {
+    console.log ("mostrar 1")
+}
+===============================================================
+//Agora reescreva a expressão anterior
+//atribuindo 0 a `x` caso ele seja menor ou igual a y
+X<=Y=0
+if (X<=Y)=0
+
+let numX= (valor)
+let numY= (valor)
+let numberFinal=0
+if (numX<=numY=numberFinal) {
+    console.log ("mostrar 0")
+}
+
+RESPUESTA CORRECTA: 
+
+let x=3
+let y=2
+
+if (x<=y) {
+    x=1
+} else {
+    X=0
+}
+
+
+=====================================================================
+Reescreva a seguinte condicional
+// sem usar o operador `!`:
+// item = ! ( i < 10 || v >= 50 )
+
+RESPUESTA CORRECTA:
+
+let item, meuItem
+let i= 11, v=51
+//V,V
+ console.log (i<10)
+ console.log (v>=50)
+ console.log (i<10 || v>=50)
+ console.log (item)
+
+
+=====================================================================
+
+
+=====================================================================
+
+Escreva um código que receba um valor 
+// digitado pelo usuário e mostre `par`
+// se o número for par e `impar`
+// se for impar.
+ 
+let restoDivisao=0 {digiteNumero é par}  
+let restoDivisao=1 (digiteNumero é impar)
+UNA VARIABLE NO PUEDE TENER EL MISMO NOMBRE CON VALORES DIFERENTES.
+codigo digitado pelo usuario: 
+
+let digiteNumero=prompt ("Digite o codigo especial do seu produto:")
+digiteNumero=4
+let = digiteNumero/2=restoDivisao
+if (digiteNumero/2)=0 o digiteNumero é par {
+    console.log ("mostrar digiteNumero par)
+    }
+        else digiteNumero/2=1 o digiteNumero é impar {
+    
+    console.log ("mostrar digiteNumero impar)
+}
+NO ES NECESARIO EN EL IF COLOCAR LA OPERACIÓN MATEMÁTICA. ESO SÓLO VA
+EN FUNCTION
+
+RESPUESTA CORRECTA RAISSA:
+ function verificarPar(num) {
+     if (num%2==0) {
+         return "É PAR"
+     } else {
+         return "É IMPAR"
+     }
+ }
+
+RESPUESTA CORRECTA DENISA:
+
+let compararNumero = prompt ("Digite un numero")
+let resultado = (compararNumero%2==0)
+
+if (resultado) {
+    console.log ("Par)
+} else {
+    console.log ("impar")
+}
+
+EJERCICIO RESUELTO: 
+
+let par=0  
+let impar=1 
+
+let digiteNumero=prompt ("Digite o codigo especial do seu produto:")
+digiteNumero=4
+if (digiteNumero=0 o digiteNumero é par {
+    console.log ("mostrar digiteNumero par)
+    }
+        else digiteNumero=1 o digiteNumero é impar {
+    
+    console.log ("mostrar digiteNumero impar)
+}
+
+let par=0  
+let impar=1 
+
+let digiteNumero=prompt ("Digite o codigo especial do seu produto:")
+digiteNumero=4
+if (digiteNumero=0 o digiteNumero é par) {
+    console.log ("mostrar digiteNumero par)
+    }
+        else digiteNumero=1 o digiteNumero é impar {
+    
+    console.log ("mostrar digiteNumero impar)
+}
+
+RESPUESTA CORRECTA:
+
+
+
+======================================================================
+Reescreva a seguinte condicional
+// sem usar o operador `!`:
+// item = ! ( i < 10 || v >= 50 )
+
+======================================================================
+
+
+Escreva a expressão que retorna `positivo` 
+// se dois números forem positivos
+// e `negativo` se dois números 
+// forem negativos.
+ 
+let numP= +
+let numN= -
+v
+
+function numeroP (a,b) {
+    numeroP= +a=+b;
+     return numP
+}
+
+function numeroN (a,b) {
+    numeroP= -a=-b;
+     return numN
+}
+
+COM IF
+
+num1= 1
+num2= 1
+
+num1= -1
+num2= -1
+
+if (num1=>1 && num2=>1) {
+    numero ++
+    console.log ("numero ++") 
+    else (num1=>-1 && num2=>-1) {
+     numero --  
+     console.log ("numero --")
+    }
+}
+CON MATH.
+X=numero
+Math. sign (X)
+Math.sign (3)
+Math.sign (-3)
+
+
+RESPUESTA CORRECTA:
+let X
+let Y
+
+if (x>=0 && y>=0) {
+    console.log ("É positivo")
+} else (x<=0 && y<=0) {
+    console.log ("É negativo)
+} else {
+    console.log ("Eso no me lo pidieron")
+}
+====================================================================
+
+Escreva a expressão em que retorna `true` se
+// dois números tiverem os mesmos
+// sinais (+ / -) e `false` 
+// se tiverem sinais
+// diferentes.
+
+num (num1,num2)
+num1>0 
+num2>0 {true}
+
+num1<0 
+num2<0 {false}
+
+
+let num=X
+let num1>0 
+let num2>0 {true}
+
+let num1<0 
+let num2<0 {false}
+
+if (num1=>0 && num2=>0) {
+    numero  true
+    console.log ("true") 
+    else (num1<0 && num2<0) {
+     numero false
+     console.log ("false")
+    }
+
+RESPUESTA CORRECTA:
+
+Let numeroUm = parseInt (prompt (Digite o primero numero))
+Let numeroDos = parseInt (prompt (Digite o segundo numero))
+if (numeroUm>=0 && numeroDos>=0 || numeroUm<0 && numeroDois<0) {
+    true
+} else {
+    false
+}
+
+OTRA RESPUESTA CON FUNCTION
+
+function positivoNegativo (a,b) FALTA LA LLAVE
+if (a >=0 && b >=0) {
+    console.log ("positivo")
+} else if (a >=0 && b <=0 ||  a<0 && b>0 || a<0 && b<0 ) {
+    console.log ("negativo")
+}
+
+function positivoNegativo(a,b){
+if (a >=0 && b >=0) {
+    console.log("positivo")
+} else if (a<0 && b<0) {
+    console.log("negativo")
+} else console.log ("diferente")
+}
+
+OJO: ES NUMERO POSITIVO CON OTR NUMERO POSITIVO: POSITIVO
+        NUMERO NEGATIVO CON OTRO NUMERO NEGATIVO: NEGATIVO
+        NUMERO POSITIVO CON OTRO NUMERO NEGATIVO: DIFERENTE
+        NUMERO NEGATIVO CON OTRO NUMERO EN POSITIVO: DIFERENTE
+
+OUTRA FORMA 
+
+let x= 1
+let y= 2
+let sinalx= Math.sign (X)
+let sinaly= Math.sign (y)
+if sinalx > 0 && sinaly >0 || sinalx<0 && sinaly<0 {
+    true} else {false}
+}
+
+OUTRA FORMA 
+
+let x= 1, y= 2
+let sinalx = Math.sign (X)
+let sinaly= Math.sign (y)
+
+Math.sign (sinalx*sinaly)? true:false
+
+
+
+let num=x
+let num=10
+num>0
+true
+num<0
+false
+
+Math.sign (num)
+num=-4
+-4
+
+Math.sign (num)
+num=1
+1
+
+================================================================
+
+
+ Duas condicionais são equivalentes
+// quando, dado um mesmo input, devolvem
+// o mesmo output. Qual das próximas
+// condicionais são equivalentes? Porque?
+
+// Gera um numero randomico entre -10 e 10.
+const rand = Math.floor(Math.random() * 21) - 10
+
+// A
+if (rand > 0) {
+	console.log(`O valor é positivo: ${rand}!`)
+} else {
+	if (rand < 0) {
+		console.log(`O valor é negativo: ${rand}!`)
+	} else {
+		console.log(`O valor é zero!`)
+	}
+}
+
+// B
+if (rand > 0) {
+	console.log(`O valor é positivo: ${rand}!`)
+}
+if (rand < 0) {
+	console.log(`O valor é negativo: ${rand}!`)
+} else {
+	console.log(`O valor é zero!`)
+}
+
+// C
+if (rand > 0) {
+	console.log(`O valor é positivo: ${rand}!`)
+}
+if (rand < 0) {
+	console.log(`O valor é negativo: ${rand}!`)
+}
+if (rand === 0) {
+	console.log(`O valor é zero!`)
+}
+
+======================================================================
+
+Reescreva a próxima expressão usando
+// o operador ternário
+// let rand
+// if (Math.random() > 0.5) {
+// 	rand = true
+// } else {
+// 	rand = false
+// }
+
+====================================================================
+
+Reescreva a próxima expressão usando
+// o operador ternário
+// let color
+// if (r > g && r > b) {
+// 	color = "Vermelho"
+// } else if (g > b && g > r) {
+// 	color = "Verde"
+// } else if (b > r && b > g) {
+// 	color = "Azul"
+// }
+
+======================================================================
+
+Reescreva a próxima expressão usando
+// um if / else.
+// switch (day) {
+// 	case 0: 
+// 		console.log("Segunda")
+// 		break
+// 	case 1:
+// 		console.log("Terça")
+// 		break
+// 	case 2:
+// 		console.log("Quarta")
+// 		break
+// 	case 3:
+// 		console.log("Quinta")
+// 		break
+// 	case 4:
+// 		console.log("Sexta")
+// 		break
+// 	case 5:
+// 		console.log("Sábado")
+// 		break
+// 	case 6:
+// 		console.log("Domingo")
+// 		break
+// 	default:
+// 		throw "Dia inválido!"
+// }
+
+RESPUESTA CORRECTA: 
+
+===============================================================
+
+
+Lembra do exercício de par ou ímpar, vamos incrementar?
+// Crie um jogo de par ou ímpar contra o compudador. 
+// A ideia é você gerar um número aleatório para o 
+// computador e comparar com o número informado pelo usuário e 
+// mostrar quem venceu a partida. Divirta-se
+// Dicas: 
+//  - Use a função Math.random() para gerar um número inteiro aleatório
+//  - Use o prompt() para coletar o número informado pelo usuário
+
+
+let numeroAleatorio = 2
+let numeroUsuario = prompt ("Digite un numero")
+let comparaNumero= (numeroUsuario>numeroAleatorio)==0
+
+if (compararNumero) {
+    console.log ("Voce venceu a partida")
+} else {
+    console.log ("O computador ganhou a partida")
+}
+ RESPUESTA COORECTA: 
+let opcaoUsuario = par
+let numUsuario = 1
+let numComp= (Math.random ()*2)
+let resultadoPar= (numUsuario + numComp)%2 ==0
+
+if (opcaoUsuario == par && resultadoPar == true) {
+    console.log ("Voce ganhou")
+} else if (opcaoUsuario == "impar" && resultadoPar == false) {
+    console.log ("Voce ganhou")
+} else {
+    console.log ("Chora nenem")
+}
+
+
+
+=======================================================
+
+ Construa a logica do menu de clientes de um site
+// caso o cliente seja perfil clássico, apresente uma ul
+// contendo nos li os itens terno, blazer, camisa,calça. Caso
+// o cliente seja do perfil esportivo mostre os itens: camisetas,
+// short, bermudas, moleton. Caso o cliente não informe o perfil, 
+//mostre todas as opções
+ 

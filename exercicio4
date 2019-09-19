@@ -1,0 +1,125 @@
+let nomeDoCliente=prompt ("Digite seu nome:")
+undefined
+nomeDoCliente
+"Francisco"
+let numeroMesa=prompt ("Digite o numero:")
+undefined
+numeroMesa
+"5"
+function sumaPedido (T=a,b) {
+    return T=a+b
+}
+sumaPedido (10,5)
+
+function sumaPedido (a=0, b=a+1, c=b+1)
+sumaPedido (0, 1+10+,11+1)
+return a+a+1+b+1
+
+function sumaPedidoX (X=a,b) {
+    return X+1
+} 
+  function sumaPedido (T=a,b,c) {
+    return a+b+c
+}
+sumaPedido (10,5)
+
+function sumaPedido (a,b,c) {
+    return t=a+b,t+c
+}
+sumaPedido (10,5)
+
+=====================================================================
+let nomeDoCliente=prompt ("Digite seu nome:")
+undefined
+nomeDoCliente
+"Simone"
+let numeroMesa=prompt ("Digite o numero:")
+undefined
+numeroMesa
+"10"
+function sumaPedido (a,b) {
+    return a+b
+}
+sumaPedido (10,5)
+15
+sumaPedido (5+8)
+NaN
+sumaPedido (5,8)
+13
+function sumaPedidoA (T=a,b) {
+    return T=a+b
+}
+sumaPedidoA (10,5)
+VM217:2 Uncaught ReferenceError: a is not defined
+    at sumaPedidoA (<anonymous>:2:5)
+    at <anonymous>:4:1
+sumaPedidoA @ VM217:2
+(anonymous) @ VM217:4
+function sumaPedidoB (T=a,b) {
+    return a+b
+}
+sumaPedidoB (10,5)
+VM236:2 Uncaught ReferenceError: a is not defined
+    at sumaPedidoB (<anonymous>:2:5)
+    at <anonymous>:4:1
+sumaPedidoB @ VM236:2
+(anonymous) @ VM236:4
+sumaPedidoB (T=10,5)
+VM236:2 Uncaught ReferenceError: a is not defined
+    at sumaPedidoB (<anonymous>:2:5)
+    at <anonymous>:1:1
+sumaPedidoB @ VM236:2
+(anonymous) @ VM281:1
+function sumaPedidoC (a,b,c) {
+    return t=a+b,t+c
+}
+undefined
+sumaPedidoC (10,5,8)
+23
+
+==========================================================================
+
+let nomeDoCliente=prompt ("Digite seu nome:")
+undefined
+nomeDoCliente
+"Leonardo"
+let numeroMesa=prompt ("Digite o numero da sua mesa:")
+undefined
+numeroMesa
+"2"
+let totalConta=0
+undefined
+totalConta
+0
+function somaPedido (valor) {
+totalConta=totalConta+valor
+}
+undefined
+somaPedido (5)
+undefined
+totalConta
+5
+somaPedido (10,7)
+undefined
+totalConta
+15
+somaPedido (7)
+undefined
+totalConta
+22
+function abaterPedido (valor) {
+totalConta=totalConta-valor
+console.log ("valor abatido: ", valor)
+}
+undefined
+abaterPedido (2)
+VM715:3 valor abatido:  2
+undefined
+totalConta
+20
+
+function ola () {
+    return=("Hello World!)
+}
+
+

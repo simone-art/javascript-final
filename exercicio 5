@@ -1,0 +1,14 @@
+let nota1=5
+
+let nota2=8
+
+let media = (nota1 + nota2)/2
+
+let aprovado = media>= 6
+undefined 
+ 
+if (aprovado)  {
+    console.log ("alumno foi aprovado!")
+} else {
+    console.log ("alumno foi reprovado!")
+}
